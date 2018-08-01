@@ -35,3 +35,16 @@ hotfix
         git commit -m "hotfix"
         5. push changes
         git push origin hotfix
+        
+release
+
+        1. create branch release 
+        git checkout -b release
+        2. update branch
+        git pull origin hotfix
+        3. add readme
+        git add .       
+        4. commit changes 
+        git commit -m "release"
+        5. push changes
+        git push origin release
