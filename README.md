@@ -48,3 +48,17 @@ release
         git commit -m "release"
         5. push changes
         git push origin release
+        
+        
+update master 
+
+        1. update master with release
+        git checkout master
+        2. pull from release
+        git pull origin release
+        3. add readme
+        git add .       
+        4. commit changes 
+        git commit -m "master"
+        5. push changes
+        git push origin master 
