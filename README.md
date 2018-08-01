@@ -22,3 +22,16 @@ feature
         git commit -m "feature"
         5. push changes
         git push origin feature                          
+        
+hotfix
+
+        1. create branch hotfix 
+        git checkout -b hotfix
+        2. update branch
+        git pull origin feature
+        3. add readme
+        git add .       
+        4. commit changes 
+        git commit -m "hotfix"
+        5. push changes
+        git push origin hotfix
